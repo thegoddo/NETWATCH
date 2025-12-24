@@ -39,7 +39,7 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/yourusername/netwatch.git](https://github.com/thegoddo/netwatch.git)
+git clone https://github.com/thegoddo/netwatch.git
 cd netwatch
 ```
 
