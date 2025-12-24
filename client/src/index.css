@@ -1,0 +1,53 @@
+/* client/src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Share+Tech+Mono&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Share Tech Mono', monospace;
+  /* Hacker text */
+  background-color: #050510;
+  color: white;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Orbitron', sans-serif;
+  /* Futuristic Headers */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Custom Scrollbar for the Dashboard */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00aaaa;
+  border-radius: 3px;
+}
+
+/* "CRT Scanline" Overlay Effect */
+.scanlines {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom,
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0) 50%,
+      rgba(0, 0, 0, 0.2) 50%,
+      rgba(0, 0, 0, 0.2));
+  background-size: 100% 4px;
+  pointer-events: none;
+  /* Let clicks pass through */
+  z-index: 10;
+}
