@@ -49,11 +49,14 @@ cd netwatch
 
 cd server
 npm install
-Create a .env file in the server folder:
-Code snippet
 ```
 
+Create a .env file in the server folder:
+```Code snippet
+
+
 CLOUDFLARE_TOKEN=your_actual_cloudflare_api_token_here
+```
 
 Start the Server:
 
